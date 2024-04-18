@@ -1,0 +1,19 @@
+@import 'colors';
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: $text-color;
+    background-color: $background-color;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    color: $primary-color;
+}
+
+p {
+    line-height: 1.5;
+}
